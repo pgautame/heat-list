@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 })
 
 // routes
-app.get('/', (req, res) => {
+app.get('/', (req, res) => { // request, response
     res.json({ mssg: 'Welcome to the app' })
 })
 
