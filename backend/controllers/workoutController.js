@@ -26,6 +26,7 @@ const createWorkout = async (req, res) => {
 
   let emptyFields = [];
 
+  // checking emptyFields in Form
   if (!title) {
     emptyFields.push("title");
   }
